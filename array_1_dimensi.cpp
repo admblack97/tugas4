@@ -41,7 +41,7 @@ int main(){
 		(a3c[4]/mc[4])
 	};
 		
-	double w[5]={5,3,4,4,3};
+	double w[5]={5,3,4,4,2};
 	
 	double RWa1c[5]={
 		Ra1c[0]*w[0],
@@ -82,7 +82,17 @@ int main(){
 	cout << Ra1c[0] <<" | "<<Ra1c[1]<<" | "<<Ra1c[2]<<" | "<<Ra1c[3]<<" | "<<Ra1c[4]<<endl;
 	cout << Ra2c[0] <<" | "<<Ra2c[1]<<" | "<<Ra2c[2]<<" | "<<Ra2c[3]<<" | "<<Ra2c[4]<<endl;
 	cout << Ra3c[0] <<" | "<<Ra3c[1]<<" | "<<Ra3c[2]<<" | "<<Ra3c[3]<<" | "<<Ra3c[4]<<endl;
+	cout << endl;
 	cout << "BOBOT W :"<<endl;
 	cout << w[0] <<" | "<<w[1]<<" | "<<w[2]<<" | "<<w[3]<<" | "<<w[4]<<endl;
 	cout << endl;
+	cout << "MATRIKS R * W :"<<endl;
+	cout << RWa1c[0] <<" | "<<RWa1c[1]<<" | "<<RWa1c[2]<<" | "<<RWa1c[3]<<" | "<<RWa1c[4]<<endl;
+	cout << RWa2c[0] <<" | "<<RWa2c[1]<<" | "<<RWa2c[2]<<" | "<<RWa2c[3]<<" | "<<RWa2c[4]<<endl;
+	cout << RWa3c[0] <<" | "<<RWa3c[1]<<" | "<<RWa3c[2]<<" | "<<RWa3c[3]<<" | "<<RWa3c[4]<<endl;
+	cout << endl;	
+	cout << "HASIL AKHIR  :"<<endl;
+	cout << "Nilai A1 : "<<ha[0]<<endl;
+	cout << "Nilai A2 : "<<ha[1]<<endl;
+	cout << "Nilai A3 : "<<ha[2]<<endl;
 }
