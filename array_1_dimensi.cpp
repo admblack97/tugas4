@@ -76,10 +76,13 @@ int main(){
 	cout << "MATRIKS X :"<<endl;
 	cout << a1c[0] <<" | "<<a1c[1]<<" | "<<a1c[2]<<" | "<<a1c[3]<<" | "<<a1c[4]<<endl;
 	cout << a2c[0] <<" | "<<a2c[1]<<" | "<<a2c[2]<<" | "<<a2c[3]<<" | "<<a2c[4]<<endl;
-	cout << a3c[0] <<" | /"<<a3c[1]<<" | "<<a3c[2]<<" | "<<a3c[3]<<" | "<<a3c[4]<<endl;
+	cout << a3c[0] <<" | "<<a3c[1]<<" | "<<a3c[2]<<" | "<<a3c[3]<<" | "<<a3c[4]<<endl;
 	cout << endl;
 	cout << "MATRIKS R :"<<endl;
-	cout << Ra1c[0] <<" | "<<Ra1c[1]<<" | "<<Ra1c[2]<<" | "<<Ra1c[1]<<" | "<<Ra1c[4]<<endl;
+	cout << Ra1c[0] <<" | "<<Ra1c[1]<<" | "<<Ra1c[2]<<" | "<<Ra1c[3]<<" | "<<Ra1c[4]<<endl;
 	cout << Ra2c[0] <<" | "<<Ra2c[1]<<" | "<<Ra2c[2]<<" | "<<Ra2c[3]<<" | "<<Ra2c[4]<<endl;
-	cout << Ra3c[0] <<" | "<<Ra3c[1]<<" | "<<Ra3c[2]<<" | "<<Ra3c[3]<<" | "<<Ra3c[1]<<endl;
+	cout << Ra3c[0] <<" | "<<Ra3c[1]<<" | "<<Ra3c[2]<<" | "<<Ra3c[3]<<" | "<<Ra3c[4]<<endl;
+	cout << "BOBOT W :"<<endl;
+	cout << w[0] <<" | "<<w[1]<<" | "<<w[2]<<" | "<<w[3]<<" | "<<w[4]<<endl;
+	cout << endl;
 }
