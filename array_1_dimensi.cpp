@@ -5,66 +5,66 @@ using namespace std;
 int main(){
 	cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
 	//meolah variabel
-	double a1c[5]={4,4,5,3,3};
-	double a2c[5]={3,3,4,2,3};
-	double a3c[5]={5,4,2,2,2};
+	double haliling[5]={4,4,5,3,3};
+	double timpakul[5]={3,3,4,2,3};
+	double manday[5]={5,4,2,2,2};
 	
 	double mc[5]={
-		max(a1c[0],max(a2c[0],a3c[0])),
-		max(a1c[1],max(a2c[1],a3c[1])),
-		max(a1c[2],max(a2c[2],a3c[2])),
-		max(a1c[3],max(a2c[3],a3c[3])),
-		max(a1c[4],max(a2c[4],a3c[4]))
+		max(haliling[0],max(timpakul[0],manday[0])),
+		max(haliling[1],max(timpakul[1],manday[1])),
+		max(haliling[2],max(timpakul[2],manday[2])),
+		max(haliling[3],max(timpakul[3],manday[3])),
+		max(haliling[4],max(timpakul[4],manday[4]))
 	};
 	
-	double Ra1c[5]={ 
-		(a1c[0]/mc[0]), 
-		(a1c[1]/mc[1]),
-		(a1c[2]/mc[2]),
-		(a1c[3]/mc[3]),
-		(a1c[4]/mc[4])
+	double mantan[5]={ 
+		(haliling[0]/mc[0]), 
+		(haliling[1]/mc[1]),
+		(haliling[2]/mc[2]),
+		(haliling[3]/mc[3]),
+		(haliling[4]/mc[4])
 	};
 	
-	double Ra2c[5]={ 
-		(a2c[0]/mc[0]), 
-		(a2c[1]/mc[1]),
-		(a2c[2]/mc[2]),
-		(a2c[3]/mc[3]),
-		(a2c[4]/mc[4])
+	double jablay[5]={ 
+		(timpakul[0]/mc[0]), 
+		(timpakul[1]/mc[1]),
+		(timpakul[2]/mc[2]),
+		(timpakul[3]/mc[3]),
+		(timpakul[4]/mc[4])
 	};
 	
-	double Ra3c[5]={ 
-		(a3c[0]/mc[0]), 
-		(a3c[1]/mc[1]),
-		(a3c[2]/mc[2]),
-		(a3c[3]/mc[3]),
-		(a3c[4]/mc[4])
+	double balu[5]={ 
+		(manday[0]/mc[0]), 
+		(manday[1]/mc[1]),
+		(manday[2]/mc[2]),
+		(manday[3]/mc[3]),
+		(manday[4]/mc[4])
 	};
 		
 	double w[5]={5,3,4,4,2};
 	
 	double RWa1c[5]={
-		Ra1c[0]*w[0],
-		Ra1c[1]*w[1],
-		Ra1c[2]*w[2],
-		Ra1c[3]*w[3],
-		Ra1c[4]*w[4]
+		mantan[0]*w[0],
+		mantan[1]*w[1],
+		mantan[2]*w[2],
+		mantan[3]*w[3],
+		mantan[4]*w[4]
 	};
 	
 	double RWa2c[5]={
-		Ra2c[0]*w[0],
-		Ra2c[1]*w[1],
-		Ra2c[2]*w[2],
-		Ra2c[3]*w[3],
-		Ra2c[4]*w[4]
+		jablay[0]*w[0],
+		jablay[1]*w[1],
+		jablay[2]*w[2],
+		jablay[3]*w[3],
+		jablay[4]*w[4]
 	};
 	
 	double RWa3c[5]={
-		Ra3c[0]*w[0],
-		Ra3c[1]*w[1],
-		Ra3c[2]*w[2],
-		Ra3c[3]*w[3],
-		Ra3c[4]*w[4]
+		balu[0]*w[0],
+		balu[1]*w[1],
+		balu[2]*w[2],
+		balu[3]*w[3],
+		balu[4]*w[4]
 	};
 	double ha[3];
 	
@@ -74,14 +74,14 @@ int main(){
 	ha[2]=RWa3c[0]+RWa3c[1]+RWa3c[2]+RWa3c[3]+RWa3c[4];
 	
 	cout << "MATRIKS X :"<<endl;
-	cout << a1c[0] <<" | "<<a1c[1]<<" | "<<a1c[2]<<" | "<<a1c[3]<<" | "<<a1c[4]<<endl;
-	cout << a2c[0] <<" | "<<a2c[1]<<" | "<<a2c[2]<<" | "<<a2c[3]<<" | "<<a2c[4]<<endl;
-	cout << a3c[0] <<" | "<<a3c[1]<<" | "<<a3c[2]<<" | "<<a3c[3]<<" | "<<a3c[4]<<endl;
+	cout << haliling[0] <<" | "<<haliling[1]<<" | "<<haliling[2]<<" | "<<haliling[3]<<" | "<<haliling[4]<<endl;
+	cout << timpakul[0] <<" | "<<timpakul[1]<<" | "<<timpakul[2]<<" | "<<timpakul[3]<<" | "<<timpakul[4]<<endl;
+	cout << manday[0] <<" | "<<manday[1]<<" | "<<manday[2]<<" | "<<manday[3]<<" | "<<manday[4]<<endl;
 	cout << endl;
 	cout << "MATRIKS R :"<<endl;
-	cout << Ra1c[0] <<" | "<<Ra1c[1]<<" | "<<Ra1c[2]<<" | "<<Ra1c[3]<<" | "<<Ra1c[4]<<endl;
-	cout << Ra2c[0] <<" | "<<Ra2c[1]<<" | "<<Ra2c[2]<<" | "<<Ra2c[3]<<" | "<<Ra2c[4]<<endl;
-	cout << Ra3c[0] <<" | "<<Ra3c[1]<<" | "<<Ra3c[2]<<" | "<<Ra3c[3]<<" | "<<Ra3c[4]<<endl;
+	cout << mantan[0] <<" | "<<mantan[1]<<" | "<<mantan[2]<<" | "<<mantan[3]<<" | "<<mantan[4]<<endl;
+	cout << jablay[0] <<" | "<<jablay[1]<<" | "<<jablay[2]<<" | "<<jablay[3]<<" | "<<jablay[4]<<endl;
+	cout << balu[0] <<" | "<<balu[1]<<" | "<<balu[2]<<" | "<<balu[3]<<" | "<<balu[4]<<endl;
 	cout << endl;
 	cout << "BOBOT W :"<<endl;
 	cout << w[0] <<" | "<<w[1]<<" | "<<w[2]<<" | "<<w[3]<<" | "<<w[4]<<endl;
