@@ -28,4 +28,28 @@ int main() {
 	mc3=max(a1c[2],max(a2c[2],a3c[2])),
 	mc4=max(a1c[3],max(a2c[3],a3c[3])),
 	mc5=max(a1c[4],max(a2c[4],a3c[4]));
+	
+	double Ra1c[5]={ (a1c[0]/mc1),(a1c[1]/mc2),(a1c[2]/mc3),(a1c[3]/mc4),(a1c[4]/mc5) };
+	double Ra2c[5]={ (a2c[0]/mc1),(a2c[1]/mc2),(a2c[2]/mc3),(a2c[3]/mc4),(a2c[4]/mc5) };
+	double Ra3c[5]={ (a3c[0]/mc1),(a3c[1]/mc2),(a3c[2]/mc3),(a3c[3]/mc4),(a3c[4]/mc5) };
+	cout << endl<<endl;
+	
+	cout << "MATRIX R :"<<endl;
+	int apam1=0;
+	do{
+		cout << Ra1c[apam1]<<" | ";
+		apam1++;
+	}while(apam1<5);cout<<endl;
+		int apam2=0;
+	do{
+		cout << Ra2c[apam2]<<" | ";
+		apam2++;
+	}while(apam2<5);cout<<endl;
+		int apam3=0;
+	do{
+		cout << Ra3c[apam3]<<" | ";
+		apam3++;
+	}while(apam3<5);cout<<endl;
+	
+	
 }
