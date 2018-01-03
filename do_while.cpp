@@ -51,5 +51,9 @@ int main() {
 		apam3++;
 	}while(apam3<5);cout<<endl;
 	
+	double w1=5, w2=3, w3=4, w4=4, w5=2;
+	cout << endl << "BOBOT W :"<<endl<< w1<<" | "<< w2<<" | "<< w3<<" | "<< w4<<" | "<< w5<<" | "<<endl;
+	
+	
 	
 }
