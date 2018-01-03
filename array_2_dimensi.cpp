@@ -45,4 +45,9 @@ int main(){
 	cout << "BOBOT W :"<<endl;
 	cout << w[0] <<" | "<<w[1]<<" | "<<w[2]<<" | "<<w[3]<<" | "<<w[4]<<endl;
 	cout << endl;
+	cout << "MATRIKS R * W :"<<endl;
+	cout << RWac[0][0] <<" | "<<RWac[0][1]<<" | "<<RWac[0][2]<<" | "<<RWac[0][3]<<" | "<<RWac[0][4]<<endl;
+	cout << RWac[1][0] <<" | "<<RWac[1][1]<<" | "<<RWac[1][2]<<" | "<<RWac[1][3]<<" | "<<RWac[1][4]<<endl;
+	cout << RWac[2][0] <<" | "<<RWac[2][1]<<" | "<<RWac[2][2]<<" | "<<RWac[2][3]<<" | "<<RWac[2][4]<<endl;
+	cout << endl;
 }
