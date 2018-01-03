@@ -50,4 +50,8 @@ int main(){
 	cout << RWac[1][0] <<" | "<<RWac[1][1]<<" | "<<RWac[1][2]<<" | "<<RWac[1][3]<<" | "<<RWac[1][4]<<endl;
 	cout << RWac[2][0] <<" | "<<RWac[2][1]<<" | "<<RWac[2][2]<<" | "<<RWac[2][3]<<" | "<<RWac[2][4]<<endl;
 	cout << endl;
+	ut << "HASIL AKHIR  :"<<endl;
+	cout << "Nilai A1 : "<<ha[0]<<endl;
+	cout << "Nilai A2 : "<<ha[1]<<endl;
+	cout << "Nilai A3 : "<<ha[2]<<endl;
 }
