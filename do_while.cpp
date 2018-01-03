@@ -22,4 +22,10 @@ int main() {
 		cout << a3c[bingka3]<<" | ";
 		bingka3++;
 	}while(bingka3<5);cout<<endl;
+	
+	double mc1=max(a1c[0],max(a2c[0],a3c[0])),
+	mc2=max(a1c[1],max(a2c[1],a3c[1])),
+	mc3=max(a1c[2],max(a2c[2],a3c[2])),
+	mc4=max(a1c[3],max(a2c[3],a3c[3])),
+	mc5=max(a1c[4],max(a2c[4],a3c[4]));
 }
