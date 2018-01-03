@@ -27,4 +27,14 @@ int main(){
 		(Rac[2][0]*w[0]),(Rac[2][1]*w[1]),(Rac[2][2]*w[2]),(Rac[2][3]*w[3]),(Rac[2][4]*w[4])
 	};
 	double ha[3];
+	
+	ha[0]=RWac[0][0]+RWac[0][1]+RWac[0][2]+RWac[0][3]+RWac[0][4];
+	ha[1]=RWac[1][0]+RWac[1][1]+RWac[1][2]+RWac[1][3]+RWac[1][4];
+	ha[2]=RWac[2][0]+RWac[2][1]+RWac[2][2]+RWac[2][3]+RWac[2][4];
+	
+	cout << "MATRIKS X :"<<endl;
+	cout << ac[0][0] <<" | "<<ac[0][1]<<" | "<<ac[0][2]<<" | "<<ac[0][3]<<" | "<<ac[0][4]<<endl;
+	cout << ac[1][0] <<" | "<<ac[1][1]<<" | "<<ac[1][2]<<" | "<<ac[1][3]<<" | "<<ac[1][4]<<endl;
+	cout << ac[2][0] <<" | "<<ac[2][1]<<" | "<<ac[2][2]<<" | "<<ac[1][3]<<" | "<<ac[2][4]<<endl;
+	cout << endl;
 }
