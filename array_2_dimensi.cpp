@@ -42,4 +42,7 @@ int main(){
 	cout << Rac[1][0] <<" | "<<Rac[1][1]<<" | "<<Rac[1][2]<<" | "<<Rac[1][3]<<" | "<<Rac[1][4]<<endl;
 	cout << Rac[2][0] <<" | "<<Rac[2][1]<<" | "<<Rac[2][2]<<" | "<<Rac[2][3]<<" | "<<Rac[2][4]<<endl;
 	cout << endl;
+	cout << "BOBOT W :"<<endl;
+	cout << w[0] <<" | "<<w[1]<<" | "<<w[2]<<" | "<<w[3]<<" | "<<w[4]<<endl;
+	cout << endl;
 }
