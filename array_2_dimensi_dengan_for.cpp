@@ -45,7 +45,7 @@ int main() {
 	cout<<endl<<"MATRIK R * W : "<<endl;
 	double RWac[3][5];
 	for(int i=0;i<3;i++){
-		for(int j=0;j<3;j++){
+		for(int j=0;j<5;j++){
 			RWac[i][j]=Rac[i][j]*w[j]; cout<<RWac[i][j]<<" | ";
 		}cout<<endl;
 	}
@@ -53,7 +53,7 @@ int main() {
 	cout<<endl<<"HASIL AKHIR : "<<endl;
 	double ha[3];
 	for(int i=0;i<3;i++){
-		for(int j=0;j<3;j++){
+		for(int j=0;j<5;j++){
 			ha[i]+=RWac[i][j];
 		}
 	}
